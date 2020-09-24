@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TH-HashMap,LinkedHashMap,TreeMap/TH-HashMap,LinkedHashMap,TreeMap.iml" filepath="$PROJECT_DIR$/TH-HashMap,LinkedHashMap,TreeMap/TH-HashMap,LinkedHashMap,TreeMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TH-PhanBietHasMapvsHasSet/TH-PhanBietHasMapvsHasSet.iml" filepath="$PROJECT_DIR$/TH-PhanBietHasMapvsHasSet/TH-PhanBietHasMapvsHasSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/module2week3(Java Collection Framework).iml" filepath="$PROJECT_DIR$/module2week3(Java Collection Framework).iml" />
     </modules>
   </component>
