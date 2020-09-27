@@ -1,15 +1,15 @@
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ProductManager implements IProduct<Product> {
     static List<Product> listProduct;
     static {
-        listProduct = new ArrayList<>();
+        listProduct = new LinkedList<>();
         Product product = new Product("iphone5", 111, 500);
         Product product1 = new Product("iphone7", 112, 700);
         Product product2 = new Product("samsung", 113, 600);
-        listProduct.add(new Product("iphone5", 111, 500));
+        listProduct.add(product);
         listProduct.add(product1);
         listProduct.add(product2);
     }
@@ -46,9 +46,18 @@ public class ProductManager implements IProduct<Product> {
         }
     }
 
+    Product findId(int id) {
+        for (int i = 0; i < listProduct.size(); i++) {
+            if (id == listProduct.get(i).getId()) {
+                return listProduct.get(i);
+            }
+        }
+        return null;
+    }
+
     @Override
     public List<Product> findName(String name) {
-        List<Product> listName = new ArrayList<>();
+        List<Product> listName = new LinkedList<>();
         for (int i = 0; i < listProduct.size(); i++) {
             if (name == listProduct.get(i).getName()) {
                 listName.add(listProduct.get(i));
@@ -58,7 +67,7 @@ public class ProductManager implements IProduct<Product> {
     }
 @Override
     public List<Product> findAll() {
-        List<Product> listAll = new ArrayList<>();
+        List<Product> listAll = new LinkedList<>();
         Iterator<Product> iterator = listProduct.iterator();
         while (iterator.hasNext())
             listAll.add(iterator.next());
@@ -66,7 +75,11 @@ public class ProductManager implements IProduct<Product> {
         return listAll;
     }
 
+     int buy(int kg,int vnd) {
 
+        int money = kg * vnd;
+        return money;
+    }
 
 
 

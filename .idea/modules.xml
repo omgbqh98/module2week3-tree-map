@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BT-SuDungArrayList-LinkedListTrongJavaCollectionFramework/BT-SuDungArrayList-LinkedListTrongJavaCollectionFramework.iml" filepath="$PROJECT_DIR$/BT-SuDungArrayList-LinkedListTrongJavaCollectionFramework/BT-SuDungArrayList-LinkedListTrongJavaCollectionFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BT-DuyetPhanTuVsBinarySearchTree/BT-DuyetPhanTuVsBinarySearchTree.iml" filepath="$PROJECT_DIR$/BT-DuyetPhanTuVsBinarySearchTree/BT-DuyetPhanTuVsBinarySearchTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BT-SuDungArrayList-Product/BT-SuDungArrayList-LinkedListTrongJavaCollectionFramework.iml" filepath="$PROJECT_DIR$/BT-SuDungArrayList-Product/BT-SuDungArrayList-LinkedListTrongJavaCollectionFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BT-SuDungLinkedList-Product/BT-SuDungLinkedList-Product.iml" filepath="$PROJECT_DIR$/BT-SuDungLinkedList-Product/BT-SuDungLinkedList-Product.iml" />
       <module fileurl="file://$PROJECT_DIR$/TH-HashMap,LinkedHashMap,TreeMap/TH-HashMap,LinkedHashMap,TreeMap.iml" filepath="$PROJECT_DIR$/TH-HashMap,LinkedHashMap,TreeMap/TH-HashMap,LinkedHashMap,TreeMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/TH-PhanBietHasMapvsHasSet/TH-PhanBietHasMapvsHasSet.iml" filepath="$PROJECT_DIR$/TH-PhanBietHasMapvsHasSet/TH-PhanBietHasMapvsHasSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/TH-SapXepVsComparable-Comparator/TH-SapXepVsComparable-Comparator.iml" filepath="$PROJECT_DIR$/TH-SapXepVsComparable-Comparator/TH-SapXepVsComparable-Comparator.iml" />
