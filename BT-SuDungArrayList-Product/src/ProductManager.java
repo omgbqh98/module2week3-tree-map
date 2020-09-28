@@ -6,9 +6,9 @@ public class ProductManager implements IProduct<Product> {
     static List<Product> listProduct;
     static {
         listProduct = new LinkedList<>();
-        Product product = new Product("iphone5", 111, 500);
-        Product product1 = new Product("iphone7", 112, 700);
-        Product product2 = new Product("samsung", 113, 600);
+        Product product = new Product("quả táo", 111, 50000);
+        Product product1 = new Product("quả bưởi", 112, 70000);
+        Product product2 = new Product("quả vải", 113, 60000);
         listProduct.add(product);
         listProduct.add(product1);
         listProduct.add(product2);
@@ -76,7 +76,6 @@ public class ProductManager implements IProduct<Product> {
     }
 
      int buy(int kg,int vnd) {
-
         int money = kg * vnd;
         return money;
     }

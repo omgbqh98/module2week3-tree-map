@@ -132,6 +132,7 @@ public class Main {
                     int gia = scanner.nextInt();
                     System.out.println("thành tiền: ");
                     System.out.println(productManager.buy(kg,gia));
+                    productManager.delete(idBuy);
                     products = productManager.findAll();
                     disPlay(products);
                     menu();
@@ -167,16 +168,13 @@ public class Main {
         select = scanner.nextInt();
 
 
-//        System.out.println("===Delete===");
-//        productManager.delete(112);
-//        disPlay(products);
+
 
 //        System.out.println("===FindName===");
 //        products = productManager.findName("iphone5");
 //        disPlay(products);
 
-//        System.out.println("==Dao nguoc gia tien: ");
-//        sort();
+
 
  }
 
